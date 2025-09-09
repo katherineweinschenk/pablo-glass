@@ -2,10 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Home on Pablo Glass</title>
-    <link>http://localhost:64061/</link>
+    <link>https://example.org/</link>
     <description>Recent content in Home on Pablo Glass</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <atom:link href="http://localhost:64061/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://example.org/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Visit Us</title>
+      <link>https://example.org/visit/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/visit/</guid>
+      <description>&lt;p&gt;Welcome to PabloGlass! We&amp;rsquo;re located in the heart of West Hurley, New York, where you can experience our hand-blown glass artistry firsthand.&lt;/p&gt;&#xA;&lt;h2 id=&#34;studio-hours&#34;&gt;Studio Hours&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Monday - Friday&lt;/strong&gt;: 10:00 AM - 6:00 PM&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Saturday&lt;/strong&gt;: 10:00 AM - 4:00 PM&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Sunday&lt;/strong&gt;: Closed&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;what-to-expect&#34;&gt;What to Expect&lt;/h2&gt;&#xA;&lt;p&gt;Visit our working studio to see our artisans create beautiful glass pieces. You can also browse our gallery of finished works and even commission custom pieces.&lt;/p&gt;&#xA;&lt;h2 id=&#34;contact-information&#34;&gt;Contact Information&lt;/h2&gt;&#xA;&lt;p&gt;&lt;strong&gt;Address&lt;/strong&gt;: 196 State Route 28, West Hurley NY 12491&lt;br&gt;&#xA;&lt;strong&gt;Phone&lt;/strong&gt;: (646) 256-9688&lt;/p&gt;</description>
+    </item>
   </channel>
 </rss>

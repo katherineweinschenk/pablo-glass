@@ -3,5 +3,7 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>http://localhost:64061/</loc>
+  </url><url>
+    <loc>http://localhost:64061/visit/</loc>
   </url>
 </urlset>
