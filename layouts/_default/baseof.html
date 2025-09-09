@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{ if .Title }}{{ .Title }} - {{ end }}{{ .Site.Title }}</title>
     <meta name="description" content="{{ if .Description }}{{ .Description }}{{ else }}{{ .Site.Params.description }}{{ end }}">
+    <link rel="icon" type="image/png" href="{{ "images/icon2.png" | relURL }}">
     <link rel="stylesheet" href="{{ "css/styles.css" | relURL }}">
 </head>
 <body>
@@ -12,7 +13,7 @@
     <header class="header">
         <div class="header-container">
             <div class="logo">
-                <img src="{{ "images/logo1.png" | relURL }}" alt="PabloGlass Logo" class="logo-img">
+                <img src="{{ "images/logo2.png" | relURL }}" alt="PabloGlass Logo" class="logo-img">
             </div>
             <nav class="nav">
                 <a href="#" class="nav-link">Visit</a>
