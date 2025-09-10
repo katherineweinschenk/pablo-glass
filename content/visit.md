@@ -3,8 +3,6 @@ title: "Visit Us"
 description: "Come visit our glass studio and gallery"
 ---
 
-Interested in hand blown glass? Come on over!
-
 ## Gallery & Shop Hours
 
 **Friday - Sunday**: 11:00 AM – 6:00 PM
