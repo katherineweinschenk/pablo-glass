@@ -13,16 +13,16 @@
     <header class="header">
         <div class="header-container">
             <div class="logo">
-                <a href="/" class="logo-link">
+                <a href="{{ .Site.BaseURL }}" class="logo-link">
                     <img src="{{ "images/logo2.svg" | relURL }}" alt="PabloGlass Logo" class="logo-img">
                 </a>
             </div>
             <nav class="nav">
-                <a href="/" class="nav-link">Home</a>
-                <a href="/visit/" class="nav-link">Visit Us</a>
-                <a href="/contact/" class="nav-link">Contact</a>
-                <a href="/rent/" class="nav-link">Rent</a>
-                <a href="/faq/" class="nav-link">FAQ</a>
+                <a href="{{ .Site.BaseURL }}" class="nav-link">Home</a>
+                <a href="{{ .Site.BaseURL }}visit/" class="nav-link">Visit Us</a>
+                <a href="{{ .Site.BaseURL }}contact/" class="nav-link">Contact</a>
+                <a href="{{ .Site.BaseURL }}rent/" class="nav-link">Rent</a>
+                <a href="{{ .Site.BaseURL }}faq/" class="nav-link">FAQ</a>
             </nav>
             <button class="mobile-menu-toggle" aria-label="Toggle menu">
                 <span class="hamburger"></span>
