@@ -1,9 +1,12 @@
 {{ define "main" }}
 <div class="main-content-container">
-    <h1 class="page-title">{{ .Title }}</h1>
-    <p class="page-subtitle">{{ .Description }}</p>
-    <div class="content">
-        {{ .Content }}
+    <div class="homepage-content">
+        <div class="content">
+            {{ .Content }}
+        </div>
+        <div class="vase-graphic">
+            <img src="{{ "images/vase-graphic.svg" | relURL }}" alt="Glass vase illustration" class="vase-image">
+        </div>
     </div>
 </div>
 {{ end }}

@@ -2,14 +2,14 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:64061/contact/</loc>
+    <loc>http://localhost:1313/contact/</loc>
   </url><url>
-    <loc>http://localhost:64061/faq/</loc>
+    <loc>http://localhost:1313/faq/</loc>
   </url><url>
-    <loc>http://localhost:64061/</loc>
+    <loc>http://localhost:1313/</loc>
   </url><url>
-    <loc>http://localhost:64061/rent/</loc>
+    <loc>http://localhost:1313/rent/</loc>
   </url><url>
-    <loc>http://localhost:64061/visit/</loc>
+    <loc>http://localhost:1313/visit/</loc>
   </url>
 </urlset>

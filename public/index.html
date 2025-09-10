@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en-us">
 <head>
-	<meta name="generator" content="Hugo 0.150.0"><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=64061&amp;path=livereload" data-no-instant defer></script>
+	<meta name="generator" content="Hugo 0.150.0"><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home - Pablo Glass</title>
@@ -19,11 +19,17 @@
                 </a>
             </div>
             <nav class="nav">
-                <a href="/visit/" class="nav-link">Visit</a>
+                <a href="/" class="nav-link">Home</a>
+                <a href="/visit/" class="nav-link">Visit Us</a>
+                <a href="/contact/" class="nav-link">Contact</a>
                 <a href="/rent/" class="nav-link">Rent</a>
                 <a href="/faq/" class="nav-link">FAQ</a>
-                <a href="/contact/" class="nav-link">Contact</a>
             </nav>
+            <button class="mobile-menu-toggle" aria-label="Toggle menu">
+                <span class="hamburger"></span>
+                <span class="hamburger"></span>
+                <span class="hamburger"></span>
+            </button>
         </div>
     </header>
 
@@ -31,11 +37,15 @@
     <main class="main-content">
         
 <div class="main-content-container">
-    <h1 class="page-title">Home</h1>
-    <p class="page-subtitle">Hand blown glass and shop</p>
-    <div class="content">
-        <p>Welcome to PabloGlass - where traditional craftsmanship meets contemporary design.</p>
+    <div class="homepage-content">
+        <div class="content">
+            <p>Welcome to PabloGlass, a gallery and glass studio located in West Hurley, New York. Our gallery features hand-blown glass pieces created by local artists, alongside paintings, textiles, and gifts.</p>
+<p>Visit our gallery Friday through Sunday (11 AM - 6 PM) or by appointment Monday through Thursday. When the studio doors are open, you can watch our artists at work creating beautiful glass pieces. We also offer studio rental for glassblowing and can connect you with our network of skilled glassblowers.</p>
 
+        </div>
+        <div class="vase-graphic">
+            <img src="/images/vase-graphic.svg" alt="Glass vase illustration" class="vase-image">
+        </div>
     </div>
 </div>
 
@@ -61,5 +71,44 @@
             </div>
         </div>
     </footer>
+    
+    <script>
+        
+        document.addEventListener('DOMContentLoaded', function() {
+            const mobileMenuToggle = document.querySelector('.mobile-menu-toggle');
+            const nav = document.querySelector('.nav');
+            
+            console.log('Mobile menu elements:', { mobileMenuToggle, nav });
+            
+            if (mobileMenuToggle && nav) {
+                mobileMenuToggle.addEventListener('click', function(e) {
+                    e.preventDefault();
+                    e.stopPropagation();
+                    console.log('Menu toggle clicked');
+                    nav.classList.toggle('active');
+                    mobileMenuToggle.classList.toggle('active');
+                });
+                
+                
+                const navLinks = document.querySelectorAll('.nav-link');
+                navLinks.forEach(link => {
+                    link.addEventListener('click', function() {
+                        nav.classList.remove('active');
+                        mobileMenuToggle.classList.remove('active');
+                    });
+                });
+                
+                
+                document.addEventListener('click', function(event) {
+                    if (!nav.contains(event.target) && !mobileMenuToggle.contains(event.target)) {
+                        nav.classList.remove('active');
+                        mobileMenuToggle.classList.remove('active');
+                    }
+                });
+            } else {
+                console.log('Mobile menu elements not found');
+            }
+        });
+    </script>
 </body>
 </html>
