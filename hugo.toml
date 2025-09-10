@@ -2,3 +2,6 @@ baseURL = 'https://example.org/'
 languageCode = 'en-us'
 title = 'Pablo Glass'
 disableKinds = ['taxonomy', 'term']
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'
