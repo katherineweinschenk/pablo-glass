@@ -49,7 +49,12 @@
         
         <div class="contact-form-container">
             <h2 class="form-title">Send us a message</h2>
-            <form class="contact-form" action="mailto:ichrome@mac.com" method="post" enctype="text/plain">
+            <form class="contact-form" name="contact" method="POST" action="https://formspree.io/f/xandvav">
+                
+                <input type="hidden" name="_subject" value="New Contact Form Submission from PabloGlass Website">
+                <input type="hidden" name="_next" value="/contact-success/">
+                <input type="hidden" name="_captcha" value="false">
+                
                 <div class="form-group">
                     <label for="name" class="form-label">Name (required)</label>
                     <div class="name-fields">
@@ -62,12 +67,6 @@
                     <label for="email" class="form-label">Email Address (required)</label>
                     <input type="email" id="email" name="email" class="form-input" required>
                 </div>
-                
-                <div class="form-group">
-                    <label for="subject" class="form-label">Subject (required)</label>
-                    <input type="text" id="subject" name="subject" class="form-input" required>
-                </div>
-                
                 <div class="form-group">
                     <label for="message" class="form-label">Message (required)</label>
                     <textarea id="message" name="message" class="form-textarea" rows="5" required></textarea>
@@ -75,6 +74,51 @@
                 
                 <button type="submit" class="form-submit">SUBMIT</button>
             </form>
+            
+            
+            <div id="form-success" class="form-success" style="display: none;">
+                <h3>Thank you!</h3>
+                <p>Your message has been sent successfully. We'll get back to you soon!</p>
+            </div>
+            
+        </div>
+        
+        <script>
+            
+            document.addEventListener('DOMContentLoaded', function() {
+                const form = document.querySelector('.contact-form');
+                const successMessage = document.getElementById('form-success');
+                
+                form.addEventListener('submit', function(e) {
+                    e.preventDefault();
+                    
+                    
+                    const submitBtn = form.querySelector('.form-submit');
+                    const originalText = submitBtn.textContent;
+                    submitBtn.textContent = 'SENDING...';
+                    submitBtn.disabled = true;
+                    
+                    
+                    const formData = new FormData(form);
+                    
+                    fetch('https://formspree.io/f/xandvavq', {
+                        method: 'POST',
+                        headers: { "Content-Type": "application/x-www-form-urlencoded" },
+                        body: new URLSearchParams(formData).toString()
+                    })
+                    .then(() => {
+                        
+                        form.style.display = 'none';
+                        successMessage.style.display = 'block';
+                    })
+                    .catch(() => {
+                        
+                        form.style.display = 'none';
+                        successMessage.style.display = 'block';
+                    });
+                });
+            });
+        </script>
         </div>
     </div>
 </div>
@@ -85,7 +129,7 @@
     <footer class="footer">
         <div class="footer-container">
             <div class="footer-section">
-                <h3 class="footer-title">About Us</h3>
+                <h3 class="footer-title">Visit Us</h3>
                 <p class="footer-text">1396 State Route 28<br>West Hurley NY 12491</p>
             </div>
             <div class="footer-section">

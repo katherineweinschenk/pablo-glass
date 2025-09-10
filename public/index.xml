@@ -22,6 +22,13 @@
       <description>&lt;p&gt;Here are answers to the most common questions we receive about our gallery and glass studio.&lt;/p&gt;&#xA;&lt;h2 id=&#34;gallery--shop&#34;&gt;Gallery &amp;amp; Shop&lt;/h2&gt;&#xA;&lt;p&gt;&lt;strong&gt;Q: What can I find at your shop?&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;Many glass pieces in the shop were created by Pablo or other artists in the studio next door. We also display other art mediums like paintings and textiles from other local artists. Smaller gifts such as coasters and jewelry are available as well.&lt;/p&gt;</description>
     </item>
     <item>
+      <title>Message Sent Successfully</title>
+      <link>http://localhost:1313/contact-success/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/contact-success/</guid>
+      <description>&lt;h1 id=&#34;thank-you&#34;&gt;Thank You!&lt;/h1&gt;&#xA;&lt;p&gt;Your message has been sent successfully. We&amp;rsquo;ll get back to you as soon as possible.&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;http://localhost:1313/contact/&#34;&gt;← Back to Contact Page&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>Rent Our Studio</title>
       <link>http://localhost:1313/rent/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -33,7 +40,7 @@
       <link>http://localhost:1313/visit/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/visit/</guid>
-      <description>&lt;h2 id=&#34;gallery--shop-hours&#34;&gt;Gallery &amp;amp; Shop Hours&lt;/h2&gt;&#xA;&lt;p&gt;&lt;strong&gt;Friday - Sunday&lt;/strong&gt;: 11:00 AM – 6:00 PM&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Monday - Thursday&lt;/strong&gt;: By Appointment&lt;/p&gt;&#xA;&lt;h2 id=&#34;glassblowing-demostrations&#34;&gt;Glassblowing Demostrations&lt;/h2&gt;&#xA;&lt;p&gt;The glass studio is open seasonally. When the studio doors are open, you can stop by to watch our artists work, even if the gallery is closed.&lt;/p&gt;&#xA;&lt;h2 id=&#34;contact-information&#34;&gt;Contact Information&lt;/h2&gt;&#xA;&lt;p&gt;&lt;strong&gt;Address&lt;/strong&gt;: 1396 State Route 28, West Hurley NY 12491&lt;br&gt;&#xA;&lt;strong&gt;Phone&lt;/strong&gt;: (646) 256-9688&lt;/p&gt;</description>
+      <description>&lt;h2 id=&#34;address&#34;&gt;Address&lt;/h2&gt;&#xA;&lt;p&gt;1396 State Route 28&lt;/p&gt;&#xA;&lt;p&gt;West Hurley NY 12491&lt;/p&gt;&#xA;&lt;h2 id=&#34;gallery--shop-hours&#34;&gt;Gallery &amp;amp; Shop Hours&lt;/h2&gt;&#xA;&lt;p&gt;&lt;strong&gt;Friday - Sunday&lt;/strong&gt;: 11:00 AM – 6:00 PM&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Monday - Thursday&lt;/strong&gt;: By Appointment&lt;/p&gt;&#xA;&lt;h2 id=&#34;glassblowing-demostrations&#34;&gt;Glassblowing Demostrations&lt;/h2&gt;&#xA;&lt;p&gt;The glass studio is open seasonally. When the studio doors are open, you can stop by to watch our artists work, even if the gallery is closed.&lt;/p&gt;&#xA;&lt;h2 id=&#34;nearby&#34;&gt;Nearby&lt;/h2&gt;&#xA;&lt;p&gt;We&amp;rsquo;re located between Woodstock and Kingston, New York. On Route 28, you&amp;rsquo;ll find various entrances to the Ashokan Reservoir Rail Trail which we highly recommend. Toward Phoenicia you can stop by Bread Alone for coffee and a treat.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
