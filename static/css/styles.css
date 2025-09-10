@@ -175,7 +175,6 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .page-title {
-    font-family: 'Vercetti', serif;
     font-size: 3rem;
     font-weight: normal;
     color: #000;
@@ -228,14 +227,12 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .visit-info h2 {
-    font-family: 'Vercetti', serif;
     font-size: 1.5rem;
     margin-bottom: 1.5rem;
     margin-top: 2rem;
 }
 
 .visit-info h3 {
-    font-family: 'Vercetti', serif;
     font-size: 1.3rem;
     margin-bottom: 1rem;
     margin-top: 1.5rem;
@@ -252,7 +249,6 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .map-title {
-    font-family: 'Vercetti', serif;
     font-size: 1.5rem;
     margin-bottom: 1rem;
     text-align: center;
@@ -293,7 +289,6 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .contact-info h2 {
-    font-family: 'Vercetti', serif;
     font-size: 1.5rem;
     margin-bottom: 1rem;
     margin-top: 2rem;
@@ -318,7 +313,6 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .form-title {
-    font-family: 'Vercetti', serif;
     font-size: 1.5rem;
     margin-bottom: 2rem;
     text-align: left;
@@ -438,7 +432,6 @@ h1, h2, h3, h4, h5, h6 {
 
 .rent-content h2,
 .faq-content h2 {
-    font-family: 'Vercetti', serif;
     font-size: 1.5rem;
     margin-bottom: 1rem;
     margin-top: 2rem;
@@ -472,7 +465,6 @@ h1, h2, h3, h4, h5, h6 {
 
 /* FAQ specific styles */
 .faq-content h3 {
-    font-family: 'Vercetti', serif;
     font-size: 1.2rem;
     margin-bottom: 0.5rem;
     margin-top: 1.5rem;
@@ -538,7 +530,6 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .footer-title {
-    font-family: 'Vercetti', serif;
     font-size: 1.1rem;
     font-weight: normal;
     color: #000;
