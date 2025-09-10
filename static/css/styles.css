@@ -562,6 +562,19 @@ h1, h2, h3, h4, h5, h6 {
         padding: 1.5rem;
     }
     
+    .name-fields {
+        flex-direction: column;
+        gap: 0;
+    }
+    
+    .name-input {
+        margin-bottom: 2rem;
+    }
+    
+    .name-input:last-child {
+        margin-bottom: 0;
+    }
+    
     .homepage-content {
         grid-template-columns: 1fr;
         gap: 2rem;
