@@ -8,11 +8,32 @@
     <language>en-us</language>
     <atom:link href="https://example.org/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Contact Us</title>
+      <link>https://example.org/contact/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/contact/</guid>
+      <description>&lt;p&gt;We&amp;rsquo;d love to hear from you! Whether you&amp;rsquo;re interested in a custom glass piece, have questions about our work, or want to schedule a studio visit, we&amp;rsquo;re here to help.&lt;/p&gt;&#xA;&lt;h2 id=&#34;get-in-touch&#34;&gt;Get In Touch&lt;/h2&gt;&#xA;&lt;p&gt;Fill out the form below and we&amp;rsquo;ll get back to you as soon as possible. For immediate assistance, you can also call us directly.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Phone&lt;/strong&gt;: (646) 256-9688&lt;br&gt;&#xA;&lt;strong&gt;Email&lt;/strong&gt;: &lt;a href=&#34;mailto:ichrome@mac.com&#34;&gt;ichrome@mac.com&lt;/a&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;custom-orders&#34;&gt;Custom Orders&lt;/h2&gt;&#xA;&lt;p&gt;We specialize in creating unique, hand-blown glass pieces tailored to your vision. Whether you&amp;rsquo;re looking for a specific color, shape, or size, we can work with you to bring your ideas to life.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Frequently Asked Questions</title>
+      <link>https://example.org/faq/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/faq/</guid>
+      <description>&lt;p&gt;Here are answers to the most common questions we receive about our glass studio, services, and policies.&lt;/p&gt;&#xA;&lt;h2 id=&#34;studio--services&#34;&gt;Studio &amp;amp; Services&lt;/h2&gt;&#xA;&lt;p&gt;&lt;strong&gt;Q: Do I need experience to visit the studio?&lt;/strong&gt;&#xA;A: No experience is required for studio visits! We welcome everyone to come see our artisans at work and learn about the glass making process. However, if you want to rent the studio for your own projects, some basic glass working experience is required.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Rent Our Studio</title>
+      <link>https://example.org/rent/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/rent/</guid>
+      <description>&lt;p&gt;Our state-of-the-art glass studio is available for rent to artists, students, and professionals looking to work with glass in a fully equipped environment.&lt;/p&gt;&#xA;&lt;h2 id=&#34;studio-features&#34;&gt;Studio Features&lt;/h2&gt;&#xA;&lt;p&gt;Our studio is equipped with everything you need for glass work:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Glass furnaces&lt;/strong&gt; - Multiple furnaces for different temperature requirements&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Annealing ovens&lt;/strong&gt; - For proper cooling of your glass pieces&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Work benches&lt;/strong&gt; - Spacious work areas with proper ventilation&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Safety equipment&lt;/strong&gt; - All necessary safety gear and first aid supplies&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Tools and equipment&lt;/strong&gt; - Complete set of glass working tools&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Storage space&lt;/strong&gt; - Secure storage for your materials and works in progress&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;rental-options&#34;&gt;Rental Options&lt;/h2&gt;&#xA;&lt;h3 id=&#34;hourly-rental&#34;&gt;Hourly Rental&lt;/h3&gt;&#xA;&lt;p&gt;Perfect for short projects or one-time use:&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>Visit Us</title>
       <link>https://example.org/visit/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://example.org/visit/</guid>
-      <description>&lt;p&gt;Welcome to PabloGlass! We&amp;rsquo;re located in the heart of West Hurley, New York, where you can experience our hand-blown glass artistry firsthand.&lt;/p&gt;&#xA;&lt;h2 id=&#34;studio-hours&#34;&gt;Studio Hours&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Monday - Friday&lt;/strong&gt;: 10:00 AM - 6:00 PM&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Saturday&lt;/strong&gt;: 10:00 AM - 4:00 PM&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Sunday&lt;/strong&gt;: Closed&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;what-to-expect&#34;&gt;What to Expect&lt;/h2&gt;&#xA;&lt;p&gt;Visit our working studio to see our artisans create beautiful glass pieces. You can also browse our gallery of finished works and even commission custom pieces.&lt;/p&gt;&#xA;&lt;h2 id=&#34;contact-information&#34;&gt;Contact Information&lt;/h2&gt;&#xA;&lt;p&gt;&lt;strong&gt;Address&lt;/strong&gt;: 196 State Route 28, West Hurley NY 12491&lt;br&gt;&#xA;&lt;strong&gt;Phone&lt;/strong&gt;: (646) 256-9688&lt;/p&gt;</description>
+      <description>&lt;p&gt;Welcome to PabloGlass! We&amp;rsquo;re located in the heart of West Hurley, New York, where you can experience our hand-blown glass artistry firsthand.&lt;/p&gt;&#xA;&lt;h2 id=&#34;gallery--shop-hours&#34;&gt;Gallery &amp;amp; Shop Hours&lt;/h2&gt;&#xA;&lt;p&gt;&lt;strong&gt;Friday - Sunday&lt;/strong&gt;: 11:00 AM – 6:00 PM&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Monday - Thursday&lt;/strong&gt;: By Appoints&lt;/p&gt;&#xA;&lt;h2 id=&#34;glassblowing-demostrations&#34;&gt;Glassblowing Demostrations&lt;/h2&gt;&#xA;&lt;p&gt;The glass studio is open seasonally to rent and watch glassblowing demonstrations. You can stop by any time to watch our artists work, even if the gallery is closed.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

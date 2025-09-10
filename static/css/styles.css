@@ -202,6 +202,186 @@ h1, h2, h3, h4, h5, h6 {
     border-radius: 8px;
 }
 
+/* Contact Page Styles */
+.contact-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 3rem;
+    margin-top: 2rem;
+}
+
+.contact-info {
+    font-size: 1.1rem;
+    line-height: 1.7;
+}
+
+.contact-info h2 {
+    font-family: 'Vercetti', serif;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    margin-top: 2rem;
+}
+
+.contact-info h2:first-child {
+    margin-top: 0;
+}
+
+.contact-info p {
+    margin-bottom: 1.5rem;
+}
+
+.contact-info p:last-child {
+    margin-bottom: 0;
+}
+
+.contact-form-container {
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 0;
+}
+
+.form-title {
+    font-family: 'Vercetti', serif;
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+    text-align: left;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-label {
+    font-family: 'Satoshi', sans-serif;
+    font-weight: 400;
+    margin-bottom: 0.5rem;
+    color: #333;
+    font-size: 1rem;
+}
+
+.name-fields {
+    display: flex;
+    gap: 1rem;
+}
+
+.name-input {
+    flex: 1;
+}
+
+.form-input,
+.form-textarea {
+    padding: 0.75rem;
+    border: 1px solid #ccc;
+    border-radius: 0;
+    font-family: 'Satoshi', sans-serif;
+    font-size: 1rem;
+    background-color: #fff;
+    transition: border-color 0.3s ease;
+}
+
+.form-input:focus,
+.form-textarea:focus {
+    outline: none;
+    border-color: #000;
+}
+
+.form-textarea {
+    resize: vertical;
+    min-height: 120px;
+}
+
+.form-submit {
+    background-color: #fff;
+    color: #333;
+    border: 1px solid #000;
+    padding: 0.75rem 2rem;
+    border-radius: 0;
+    font-family: 'Satoshi', sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    align-self: flex-start;
+    letter-spacing: 0.5px;
+}
+
+.form-submit:hover {
+    background-color: #000;
+    color: #fff;
+}
+
+/* Rent & FAQ Page Styles */
+.rent-content,
+.faq-content {
+    font-size: 1.1rem;
+    line-height: 1.7;
+    margin-top: 2rem;
+}
+
+.rent-content h2,
+.faq-content h2 {
+    font-family: 'Vercetti', serif;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    margin-top: 2rem;
+}
+
+.rent-content h2:first-child,
+.faq-content h2:first-child {
+    margin-top: 0;
+}
+
+.rent-content p,
+.faq-content p {
+    margin-bottom: 1.5rem;
+}
+
+.rent-content p:last-child,
+.faq-content p:last-child {
+    margin-bottom: 0;
+}
+
+.rent-content ul,
+.faq-content ul {
+    margin-bottom: 1.5rem;
+    padding-left: 1.5rem;
+}
+
+.rent-content li,
+.faq-content li {
+    margin-bottom: 0.5rem;
+}
+
+/* FAQ specific styles */
+.faq-content h3 {
+    font-family: 'Vercetti', serif;
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+    margin-top: 1.5rem;
+    color: #333;
+}
+
+.faq-content h3:first-child {
+    margin-top: 0;
+}
+
+/* Ensure all content pages have consistent paragraph spacing */
+.content p {
+    margin-bottom: 1.5rem;
+}
+
+.content p:last-child {
+    margin-bottom: 0;
+}
+
 /* Footer Styles */
 .footer {
     background-color: #f5f5f5;
@@ -294,6 +474,15 @@ h1, h2, h3, h4, h5, h6 {
     }
     
     .map-container {
+        padding: 1.5rem;
+    }
+    
+    .contact-content {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
+    
+    .contact-form-container {
         padding: 1.5rem;
     }
 }
