@@ -480,15 +480,12 @@ h1, h2, h3, h4, h5, h6 {
 /* Homepage specific styles */
 .homepage-content {
     display: grid;
-    grid-template-columns: 1fr 2fr;
+    grid-template-columns: 1fr 1fr;
     gap: 4rem;
     margin-top: 0;
-    align-items: center;
+    align-items: start;
 }
 
-.homepage-content .content {
-    max-width: 400px;
-}
 
 .vase-graphic {
     display: flex;
@@ -499,7 +496,6 @@ h1, h2, h3, h4, h5, h6 {
 .vase-image {
     max-width: 100%;
     height: auto;
-    max-height: 600px;
 }
 
 /* Footer Styles */
