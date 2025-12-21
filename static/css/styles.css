@@ -243,7 +243,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .map-container {
-    background-color: #f9f9f9;
+    background-color: #F4F1EA;
+    border: 1px dashed #831714;
     padding: 2rem;
     border-radius: 8px;
 }
@@ -679,4 +680,15 @@ h1, h2, h3, h4, h5, h6 {
     .page-title {
         font-size: 1.5rem;
     }
+}
+
+/* Link styles */
+a {
+    color: #84a0d1;
+    text-decoration: underline;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #3864af;
 }

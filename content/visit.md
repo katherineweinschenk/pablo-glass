@@ -1,17 +1,16 @@
 ---
 title: "Visit Us"
-description: "Come visit our glass studio and gallery"
+description: "Come visit our glass studio and shop"
 ---
 
-## Gallery & Shop Hours
+## Shop Hours
 
-**Friday - Sunday**: 11:00 AM – 6:00 PM
+- **Friday - Sunday**: 11:00 AM – 6:00 PM
+- **Monday - Thursday**: By Appointment
 
-**Monday - Thursday**: By Appointment
+## Studio Hours
 
-## Glass Studio
-
-The glass studio itself is open seasonally. When the studio doors are open, you can stop by to watch our artists work, even if the gallery is closed.
+We keep the studio open during the warmer months and close when it's too cold to work. We can always give you a tour of the studio during shop hours — if you're lucky, you'll see some glassblowing in action!
 
 ## Stay With Us
 
