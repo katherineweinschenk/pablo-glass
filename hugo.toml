@@ -1,4 +1,4 @@
-baseURL = 'https://katherineweinschenk.github.io/pablo-glass/'
+baseURL = 'https://pabloglass.com/'
 languageCode = 'en-us'
 title = 'Pablo Glass'
 disableKinds = ['taxonomy', 'term']
