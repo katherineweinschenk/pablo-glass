@@ -84,6 +84,24 @@ h1, h2, h3, h4, h5, h6 {
     white-space: nowrap;
 }
 
+.nav-link-external {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.35rem;
+}
+
+.external-link-icon {
+    width: 0.72rem;
+    height: 0.72rem;
+    flex: 0 0 auto;
+    margin-top: -0.1rem;
+    transition: transform 0.2s ease;
+}
+
+.nav-link-external:hover .external-link-icon {
+    transform: translate(1px, -1px);
+}
+
 .nav-link:hover {
     opacity: 0.8;
 }
